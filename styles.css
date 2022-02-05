@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    color: white;
+    /* background: url(./assets/vertical_cloth.png); */
+} 
+
+
+.top-nav{
+    height: 90vh;
+    width: 100%;
+    background: rgb(26, 16, 19);
+    background: url(./assets/vertical_cloth.png);
+    
+}
+
+.navbar-brand > img{
+    max-width: 60px;
+}
+
+a.nav-link{
+    color: white!important;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.hero .col{
+    /* background: url(./assets/oriental-tiles.png)!important; */
+    background-color: rgb(66, 66, 63);
+    /* background: red; */
+}
+
+i{
+    /* color: black; */
+    padding-right: 10px;
+    font-size: 2rem;
+}
+
+span{
+    padding-right: 30px;
+    font-size: 2rem;
+}
+
+.skills{
+    background-color: brown;
+    color: white;
+    font: 5rem;
+    
+
+}
