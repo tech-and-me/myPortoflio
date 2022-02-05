@@ -1,21 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-*{
-    color: white;
-    /* background: url(./assets/vertical_cloth.png); */
-} 
-
+body{
+    background-color: rgb(12, 12, 12);
+}
 
 .top-nav{
-    height: 90vh;
+    height: 60vh;
     width: 100%;
-    background: rgb(26, 16, 19);
+    background: rgb(46, 31, 36);
     background: url(./assets/vertical_cloth.png);
-    
 }
 
 .navbar-brand > img{
-    max-width: 60px;
+    max-width: 70px;
+    position: relative;
 }
 
 a.nav-link{
@@ -25,27 +23,58 @@ a.nav-link{
 }
 
 
+.hero{
+    height: 60vh;
+    margin-top: -3rem;
+}
 .hero .col{
-    /* background: url(./assets/oriental-tiles.png)!important; */
-    background-color: rgb(66, 66, 63);
-    /* background: red; */
+    background-color: rgb(178, 243, 239);
+    position: relative;
+    height: 60vh;
 }
 
-i{
-    /* color: black; */
-    padding-right: 10px;
-    font-size: 2rem;
+.sec-content{
+    margin: 3rem 0;
+    position:relative;
 }
-
-span{
-    padding-right: 30px;
-    font-size: 2rem;
+.sec-content > span > img{
+    padding: 3rem 1.2rem;
+    width:110px;
 }
 
 .skills{
-    background-color: brown;
-    color: white;
+    color: black;
     font: 5rem;
-    
+    margin-top: 10rem;
+    position: relative;
+}
+
+.sec-content span{
+    position: relative;
+    top: 1rem;
+    animation: move 8s infinite linear; 
+}
+
+@keyframes move {
+0%,
+25% {
+    transform: translateX(0%);
+    left: 0%;
+}
+75%,
+100% {
+    transform: translateX(100%);
+    left: 100%;
+}
 
 }
+
+.project{
+    height: 70vh;
+    width: 100%;
+    background: rgb(26, 16, 19);
+    background: url(./assets/vertical_cloth.png);
+}
+
+
+
