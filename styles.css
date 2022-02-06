@@ -21,7 +21,7 @@ a{
 }
 
 .top-nav{
-    min-height: 60vh;
+    min-height: 40vh;
     width: 100%;
     background: rgb(46, 31, 36);
     background: url(./assets/vertical_cloth.png);
@@ -48,14 +48,27 @@ a.nav-link:hover{
     background-color: rgba(251,242,240,0.9);
     color: black!important;
     font-weight: 600;
+}
 
+.hero-wrapper{
+    position: relative;
+    height:60vh;
+    /* background-color: yellow; */
 }
 
 .hero{
-    height: 60vh;
-    margin-top: -3rem;
+    height: 60%;
+    /* margin-top: -3rem; */
     position: relative;
+    /* background-color: red; */
 }
+
+.hero .row{
+    background-color: rgba(245,242,240,20);
+    position: sticky;
+    min-height: 65vh;
+}
+
 .hero h1{
     padding-bottom: 1rem;
     font-family: 'Yeseva One', cursive;
@@ -68,11 +81,7 @@ a.nav-link:hover{
     color: rgb(206, 70, 16);
     letter-spacing: 1px;
 }
-.hero .col{
-    background-color: rgba(245,242,240,20);
-    position: relative;
-    min-height: 65vh;
-}
+
 
 .hero p{
     font-family: 'Roboto', sans-serif;
