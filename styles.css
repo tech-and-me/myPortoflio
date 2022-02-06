@@ -196,7 +196,6 @@ a.nav-link:hover{
     /* box-shadow: rgb(158, 158, 223); */
 }
 
-
 .aboutMeSection{
     background: url(./assets/vertical_cloth.png);
     box-shadow: 12px -12px rgb(182,30,33);
@@ -235,9 +234,7 @@ a.nav-link:hover{
     text-decoration: underline 1.5px;
     text-underline-offset: 10px;
     letter-spacing: 1px;
-    font-family: 'Roboto', sans-serif;
-    
-    
+    font-family: 'Roboto', sans-serif;  
 }
 
 .footer i{
@@ -260,8 +257,6 @@ footer i:hover{
 }
 
 
-
-
 /* Media Query  */
 @media (min-width: 768px) and (max-width: 1024px){
     /* .skills{
@@ -277,7 +272,7 @@ footer i:hover{
 
 @media (min-width: 481px) and (max-width: 767px){
     .dummy{
-        min-height: 300vh;
+        min-height: 600px;
     }
 
     .aboutMeSection img{
