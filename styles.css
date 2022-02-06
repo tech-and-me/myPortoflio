@@ -1,12 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Roboto:wght@100&family=Yeseva+One&display=swap');
 
+
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: rgb(12, 12, 12);
+    color:white;
+}
+
+a{
+    text-decoration: none;
 }
 
 .top-nav{
-    height: 60vh;
+    min-height: 60vh;
     width: 100%;
     background: rgb(46, 31, 36);
     background: url(./assets/vertical_cloth.png);
@@ -18,11 +30,23 @@ body{
 }
 
 a.nav-link{
-    color: white!important;
-    letter-spacing: 2px;
+    color: rgba(240,242,240,0.9)!important;
+    letter-spacing: 2.5px;
     font-family: 'Roboto', sans-serif;
+    font-weight:500;
+    text-decoration: none;
+    /* margin: auto 8px; */
+    width: 120px;
+    /* border: solid red 2px; */
+    padding: 7px!important;
 }
 
+a.nav-link:hover{
+    background-color: rgba(251,242,240,0.9);
+    color: black!important;
+    font-weight: 600;
+
+}
 
 .hero{
     height: 60vh;
@@ -30,11 +54,20 @@ a.nav-link{
 }
 .hero h1{
     padding-bottom: 1rem;
+    font-family: 'Yeseva One', cursive;
+    color: black;
+}
+
+.hero h4{
+    font-family: 'Playball', cursive;
+    font-size: 2.2rem;
+    color: rgb(206, 70, 16);
+    letter-spacing: 1px;
 }
 .hero .col{
-    background-color: rgb(178, 243, 239);
+    background-color: rgba(245,242,240,20);
     position: relative;
-    height: 65vh;
+    min-height: 65vh;
 }
 
 .hero p{
@@ -42,6 +75,7 @@ a.nav-link{
     font-weight: bolder;
     letter-spacing: 2px;
     padding-bottom: 1rem;
+    color: black;
 }
 
 .sec-content{
@@ -51,73 +85,173 @@ a.nav-link{
 }
 .sec-content > span > img{
     padding: 3rem 1.2rem;
-    width:110px;
+    /* min-width:110px;
+    max-width: 5%; */
 }
 
 .skills{
-    color: black;
+    color:white;
     font: 5rem;
-    margin-top: 10rem;
+    margin-top: 10rem!important;
     position: relative;
+    font-family: 'Roboto', sans-serif;
+    
 }
 
+.skills .sec-title{
+    /* backdrop-filter: 10px; */
+    padding: 1rem auto;
+    margin: 1rem auto;
+    /* background-color: rgba(56, 56, 54, 0.5); */
+    background: url(./assets/vertical_cloth.png);
+}
+
+.skills-content{
+    /* background-color: rgba(245,242,240,20);
+    background-color: rgb(48, 46, 46); */
+    background: url(./assets/vertical_cloth.png);
+    padding: 1rem auto;
+    margin: 1rem auto;
+}
+
+.skills h2{
+    text-transform: uppercase;
+    /* background-color: rgba(170, 158, 158,0.3); */
+    padding:1rem 0!important;
+}
 .sec-content span{
     position: relative;
     top: 1rem;
-    animation: move 8s infinite ease-in-out; 
-}
-
-@keyframes move {
-0%,
-25% {
-    transform: translateX(0%);
-    left: 0%;
-}
-75%,
-100% {
-    transform: translateX(100%);
-    left: 100%;
-}
-
+    animation: moveRight 10s infinite ease-in-out; 
+    font-size: 1rem;
+    text-align: center;
 }
 
 .project{
-    height: 70vh;
-    width: 100%;
-    background: rgb(26, 16, 19);
+    /* background-color: rgba(245,242,240,20); */
+    color:white;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.project img{
+    background-color: transparent;
+    outline: solid black 1px;
+    border-radius: 20px;
+    min-height: 200px;
+}
+
+.proj-content p{
+    font-family: 'Roboto', sans-serif;
+    /* font-weight: bolder; */
+    letter-spacing: 1.5px;
+    font-style: italic;
+}
+
+.proj-content p span{
+    font-weight:bolder;
+    /* font-size: 1.1rem; */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-style: normal;
+    /* background-color: rgb(46, 43, 43); */
+    padding: 2px 4px;
+}
+
+.proj-content a{
+    color: rgb(20, 79, 243);
+    font-weight: bold;
+}
+
+.proj-content a i{
+    /* color: white; */
+    font-size: 1.3rem;
+    padding-right: 10px;
+}
+
+.proj-content a i:hover{
+    color: rgb(22, 70, 175);
+}
+
+.proj-content a:hover{
+    color: rgb(22, 70, 175);
+    /* box-shadow: rgb(158, 158, 223); */
+}
+
+
+#aboutmeContent{
+    top: 50%;
+    transform: translateY(50%);
+}
+
+.aboutMeSection{
     background: url(./assets/vertical_cloth.png);
+    box-shadow: 12px -12px rgb(182,30,33);
+}
+
+.aboutMeSection h4{
+    /* text-transform: uppercase; */
+    text-transform: uppercase;
+    text-decoration: underline 1.5px;
+    text-underline-offset: 10px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
 }
 
 
 .footer{
-    color:aqua;
+    color: rgba(251,242,240,255);
     padding: 0.5rem;
-    /* background: rgb(19, 16, 17); */
 }
 
 .footer h4{
     text-transform: uppercase;
-    text-decoration: underline 3px;
+    text-decoration: underline 1.5px;
     text-underline-offset: 10px;
     letter-spacing: 1px;
     font-family: 'Roboto', sans-serif;
+    
     
 }
 
 .footer i{
     padding: 2rem 1rem;
     padding-bottom: 1rem;
-    /* color: white; */
-    color: aqua;
+    color: rgba(251,242,240,255);
 }
 
 .footer p{
-    background-color: rgb(26, 26, 24);
     padding: 1rem;
-    /* padding-bottom: 0; */
     margin-bottom: 0;
+    margin-top: 4rem;
     font-family: 'Roboto', sans-serif;
-    color: white;
+    color: rgba(251,242,240,255);
+    background: url(./assets/vertical_cloth.png);
+}
+
+footer i:hover{
+    color: rgb(211, 80, 5);
 }
 
 
+
+
+/* Media Query  */
+@media (min-width: 768px) and (max-width: 1024px){
+    .skills{
+      margin-top: 25rem!important;
+  }
+  
+  .project img{
+        margin-top:3rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+    .skills{
+        margin-top: 35rem!important;
+    }
+
+   
+
+}
