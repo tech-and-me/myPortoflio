@@ -54,6 +54,7 @@ a.nav-link:hover{
 .hero{
     height: 60vh;
     margin-top: -3rem;
+    position: relative;
 }
 .hero h1{
     padding-bottom: 1rem;
@@ -82,7 +83,8 @@ a.nav-link:hover{
 }
 
 .dummy{
-    height: 30vh;
+    min-height: 100px;
+    position: relative;
 }
 
 .sec-content{
@@ -257,7 +259,7 @@ footer i:hover{
       margin-top: 25rem!important;
   } */
   .dummy{
-      height: 40vh;
+      min-height: 400px;
   }
   .project img{
         margin-top:3rem;
@@ -265,13 +267,10 @@ footer i:hover{
 }
 
 @media (min-width: 481px) and (max-width: 767px){
-    /* .skills{
-        margin-top: 40rem!important;
-    } */
-
     .dummy{
-        height: 100vh;
+        min-height: 300vh;
     }
+
     .aboutMeSection img{
         margin-bottom: 1rem;
     }
