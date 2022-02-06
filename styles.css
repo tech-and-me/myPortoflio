@@ -110,7 +110,7 @@ a.nav-link:hover{
 .skills{
     color:white;
     font: 5rem;
-    /* margin-top: 10rem!important; */
+    margin-top: 3rem!important;
     position: relative;
     font-family: 'Roboto', sans-serif;
     
@@ -259,9 +259,9 @@ footer i:hover{
 
 /* Media Query  */
 @media (min-width: 768px) and (max-width: 1024px){
-    /* .skills{
-      margin-top: 25rem!important;
-  } */
+    .skills{
+      margin-top: 8rem!important;
+  }
   .dummy{
       min-height: 400px;
   }
@@ -281,6 +281,10 @@ footer i:hover{
 
     .aboutMeSection p{
         font-size: 1rem;
+    }
+
+    .skills{
+        margin-top: 10rem;
     }
     
 
