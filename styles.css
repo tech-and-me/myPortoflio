@@ -81,6 +81,10 @@ a.nav-link:hover{
     color: black;
 }
 
+.dummy{
+    height: 30vh;
+}
+
 .sec-content{
     margin: 3rem 0;
     position:relative;
@@ -95,7 +99,7 @@ a.nav-link:hover{
 .skills{
     color:white;
     font: 5rem;
-    margin-top: 10rem!important;
+    /* margin-top: 10rem!important; */
     position: relative;
     font-family: 'Roboto', sans-serif;
     
@@ -249,20 +253,25 @@ footer i:hover{
 
 /* Media Query  */
 @media (min-width: 768px) and (max-width: 1024px){
-    .skills{
+    /* .skills{
       margin-top: 25rem!important;
+  } */
+  .dummy{
+      height: 40vh;
   }
-  
   .project img{
         margin-top:3rem;
     }
 }
 
 @media (min-width: 481px) and (max-width: 767px){
-    .skills{
+    /* .skills{
         margin-top: 40rem!important;
-    }
+    } */
 
+    .dummy{
+        height: 100vh;
+    }
     .aboutMeSection img{
         margin-bottom: 1rem;
     }
