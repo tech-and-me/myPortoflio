@@ -7,7 +7,10 @@
 *{
     margin: 0;
     padding: 0;
+    /* box-sizing: border-box; */
+    /* max-width: 100%; */
 }
+
 body{
     background-color: rgb(12, 12, 12);
     color:white;
@@ -179,25 +182,33 @@ a.nav-link:hover{
 }
 
 
-#aboutmeContent{
-    top: 50%;
-    transform: translateY(50%);
-}
-
 .aboutMeSection{
     background: url(./assets/vertical_cloth.png);
     box-shadow: 12px -12px rgb(182,30,33);
 }
 
 .aboutMeSection h4{
-    /* text-transform: uppercase; */
+    font-size: 2rem;
     text-transform: uppercase;
-    text-decoration: underline 1.5px;
-    text-underline-offset: 10px;
+    font-style: bolder;
+    /* text-decoration: underline 1.5px;
+    text-underline-offset: 10px; */
     letter-spacing: 1px;
     font-family: 'Roboto', sans-serif;
+    padding: 2rem 1rem;
 }
 
+#aboutmeContent{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+    padding: 1rem 3rem;
+    /* margin-top: 3rem; */
+}
+
+.aboutMeSection img{
+    min-width: 300px;
+}
 
 .footer{
     color: rgba(251,242,240,255);
@@ -249,9 +260,16 @@ footer i:hover{
 
 @media (min-width: 481px) and (max-width: 767px){
     .skills{
-        margin-top: 35rem!important;
+        margin-top: 40rem!important;
     }
 
-   
+    .aboutMeSection img{
+        margin-bottom: 1rem;
+    }
+
+    .aboutMeSection p{
+        font-size: 1rem;
+    }
+    
 
 }
