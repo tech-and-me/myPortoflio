@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Yeseva+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playball&family=Roboto:wght@100&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Playball&family=Roboto:wght@100&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Mukta:wght@200&family=Pattaya&display=swap');
 
 
 *{
@@ -15,6 +19,8 @@ body{
     background-color: rgb(12, 12, 12);
     color:white;
     /* position:absolute; */
+    /* font-family: 'Cutive Mono', monospace; */
+    font-family: 'Roboto', sans-serif;   
 }
 
 a{
@@ -86,24 +92,44 @@ a.nav-link{
 
 .hero h1{
     padding-bottom: 1rem;
-    font-family: 'Yeseva One', cursive;
+    /* font-family: 'Yeseva One', cursive; */
     color: black;
+    font-size: 4.5rem;
+    /* font-family: 'Pattaya', sans-serif; */
+    font-family: 'Fredericka the Great', cursive;
+    color: rgb(182,30,33);
+    font-weight:500;
+    
 }
 
 .hero h4{
-    font-family: 'Playball', cursive;
-    font-size: 2.2rem;
-    color: rgb(206, 70, 16);
-    letter-spacing: 1px;
+    color: black;
+    font-family: 'Cutive Mono', monospace;
+    font-weight: 500;
+    font-size:1.4rem;
+    line-height: 1.5;
+
 }
 
+.hero h5{
+    /* font-family: 'Cutive Mono', monospace; */
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing:3px;
+}
 
 .hero p{
-    font-family: 'Roboto', sans-serif;
-    font-weight: bolder;
-    letter-spacing: 2px;
-    padding-bottom: 1rem;
     color: black;
+    font-size: 1.2rem;
+}
+
+.hero span{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-weight: 500;
+    font-weight: bold;
+    font-size: 1.3rem;
 }
 
 .sec-content{
@@ -119,11 +145,9 @@ a.nav-link{
 
 .skills{
     color:white;
-    font: 5rem;
     margin-top: 3rem!important;
     position: relative;
-    font-family: 'Roboto', sans-serif;
-    
+    font-family: 'Roboto', sans-serif;    
 }
 
 .skills .sec-title{
@@ -132,6 +156,10 @@ a.nav-link{
     margin: 1rem auto;
     /* background-color: rgba(56, 56, 54, 0.5); */
     background: url(./assets/vertical_cloth.png);
+    font-family: 'Fredericka the Great', cursive;
+    letter-spacing: 5px;
+    
+
 }
 
 .skills-content{
@@ -147,20 +175,22 @@ a.nav-link{
     /* background-color: rgba(170, 158, 158,0.3); */
     padding:1rem 0!important;
 }
-.sec-content span{
+/* .sec-content span{
     position: relative;
     top: 1rem;
     animation: moveRight 10s infinite ease-in-out; 
     font-size: 1rem;
     text-align: center;
-}
+} */
 
 .project{
     /* background-color: rgba(245,242,240,20); */
     color:white;
     background-color: black;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    
 }
+
 
 .project img{
     background-color: transparent;
@@ -169,25 +199,33 @@ a.nav-link{
     min-height: 200px;
 }
 
-.proj-content p{
-    font-family: 'Roboto', sans-serif;
-    /* font-weight: bolder; */
-    letter-spacing: 1.5px;
-    font-style: italic;
+.proj-content h2{
+    font-family: 'Fredericka the Great', cursive;
+    letter-spacing: 3px;
 }
 
-.proj-content p span{
+.proj-content p{
+    /* font-family: 'Roboto', sans-serif; */
+    font-weight: normal;
+    font-size:1.2rem;
+    /* font-style: italic; */
+    font-family: 'Cutive Mono', monospace;
+    
+}
+
+.proj-content span{
     font-weight:bolder;
     /* font-size: 1.1rem; */
     letter-spacing: 1px;
     text-transform: uppercase;
-    font-style: normal;
+    font-style: bold;
     /* background-color: rgb(46, 43, 43); */
     padding: 2px 4px;
+    color: rgb(212, 23, 26);
 }
 
 .proj-content a{
-    color: rgb(20, 79, 243);
+    color: rgb(109, 144, 240);
     font-weight: bold;
 }
 
@@ -215,19 +253,21 @@ a.nav-link{
     font-size: 2rem;
     text-transform: uppercase;
     font-style: bolder;
-    /* text-decoration: underline 1.5px;
-    text-underline-offset: 10px; */
     letter-spacing: 1px;
-    font-family: 'Roboto', sans-serif;
     padding: 2rem 1rem;
+    font-family: 'Fredericka the Great', cursive; 
 }
 
 #aboutmeContent{
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 2px;
-    font-size: 1.1rem;
+    /* font-family: 'Roboto', sans-serif; */
+    /* letter-spacing: 2px; */
+    /* font-size: 1.1rem; */
     padding: 1rem 3rem;
-    /* margin-top: 3rem; */
+    font-family: 'Cutive Mono', monospace;
+    font-weight: 300;
+    font-size:1.4rem;
+    line-height: 1.5;
+   
 }
 
 .aboutMeSection img{
@@ -243,8 +283,9 @@ a.nav-link{
     text-transform: uppercase;
     text-decoration: underline 1.5px;
     text-underline-offset: 10px;
-    letter-spacing: 1px;
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Cutive Mono', monospace;
+    letter-spacing: 2px;
+    font-size: 2rem
 }
 
 .footer i{
