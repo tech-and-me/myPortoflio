@@ -299,15 +299,15 @@ a.nav-link{
 
 .footer h4{
     text-transform: uppercase;
-    text-decoration: underline 25px;
-    text-underline-offset: 10px;
+    text-decoration: underline 1px;
+    text-underline-offset: 30px;
     font-family: 'Cutive Mono', monospace;
-    letter-spacing: 2px;
-    font-size: 2.7rem;
+    /* letter-spacing: 1px; */
+    font-size: 2.3rem;
 }
 
 .footer i{
-    padding: 2rem 2rem;
+    padding: 2rem 1rem;
     padding-top: 2.5rem!important;
     padding-bottom: 1rem;
     color: rgba(251,242,240,255);
