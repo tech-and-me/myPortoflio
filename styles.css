@@ -280,6 +280,14 @@ a.nav-link{
     line-height: 2;  
 }
 
+#aboutmeContent span{
+    font-style: italic;
+    font-size: 1.3rem;
+    
+    
+}
+
+
 .aboutMeSection img{
     min-width: 300px;
 }
@@ -347,9 +355,9 @@ footer p:hover{
     .skills{
       margin-top: 3rem!important;
   }
-  .project img{
+  /* .project img{
         margin-top:3rem;
-    }
+    } */
 
     .proj-content h2{
         font-size: 2rem;
