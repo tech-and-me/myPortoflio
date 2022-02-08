@@ -258,6 +258,7 @@ a.nav-link{
     box-shadow: 12px -12px rgb(182,30,33);
     justify-content: center;
     text-align: center;
+    overflow-x: hidden;
 }
 
 .aboutMeSection h4{
@@ -268,7 +269,7 @@ a.nav-link{
     padding: 2rem 1rem;
     font-family: 'Fredericka the Great', cursive; 
     width: 30%;
-    min-width: 300px;
+    min-width: 250px;
     line-height: 110px;
 }
 
@@ -283,13 +284,11 @@ a.nav-link{
 #aboutmeContent span{
     font-style: italic;
     font-size: 1.3rem;
-    
-    
 }
 
 
 .aboutMeSection img{
-    min-width: 300px;
+    min-width: 200px;
 }
 
 .footer{
