@@ -430,11 +430,14 @@ footer p:hover{
     }
 
     .bottom-nav ul li{
-        width: 110px;
+        width: 90px!important;
         font-size: 0.8rem;
         align-content: center!important;
-        padding: auto;
-        margin: auto;
+      
+    }
+
+    .bottom-nav ul li a{
+        width: 90px;
     }
 
 }
