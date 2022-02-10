@@ -402,6 +402,10 @@ footer p:hover{
         font-size: 0.9rem;
     }
 
+    .bottom-nav ul li a{
+        width: 100%;
+    }
+
 }
 
 @media (min-width: 481px) and (max-width: 767px){
@@ -439,13 +443,17 @@ footer p:hover{
         padding: 10px;
     }
 
-    .bottom-nav ul li{
-        width: 70%;
+    .bottom-nav{
+        width: 55%!important;
     }
 
     .bottom-nav ul li{
         width: 100%!important;
         font-size: 0.9rem;
+    }
+
+    .bottom-nav ul li a{
+        width: 100%;
     }
 
 
