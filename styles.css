@@ -429,4 +429,12 @@ footer p:hover{
         padding: 10px;
     }
 
+    .bottom-nav ul li{
+        width: 110px;
+        font-size: 0.8rem;
+        align-content: center!important;
+        padding: auto;
+        margin: auto;
+    }
+
 }
