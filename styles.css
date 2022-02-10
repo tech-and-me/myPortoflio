@@ -449,6 +449,7 @@ footer p:hover{
         font-size: 0.7rem!important;
         /* width: 130px!important; */
         /* padding-right: 5px; */
+        border-width: 1px;
     }
 
     .bottom-nav ul li a{
