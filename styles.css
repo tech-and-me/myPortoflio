@@ -373,7 +373,20 @@ footer p:hover{
     color: #fff;
   }
 
+  footer h1{
+      z-index: 100;
+  }
 
+  .toTop{
+      color: white!important;
+      position:fixed;
+      top: 50%;
+      right: 20px;
+      transform: rotate(-90deg);
+      font-weight: bolder;
+      background-color: rgb(172, 12, 52);
+      font-size: 2rem;
+    }
 
 
 /* Media Query  */
@@ -439,5 +452,7 @@ footer p:hover{
     .bottom-nav ul li a{
         width: 90px;
     }
+
+
 
 }
