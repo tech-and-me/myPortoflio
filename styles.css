@@ -342,9 +342,6 @@ footer p:hover{
     width: 50%;
 }
 
-
-
-
 .bottom-nav ul li{
     border-right: rgb(182,30,33) 3px solid;
     font-size: 1.1rem;
@@ -408,7 +405,7 @@ footer p:hover{
 
 }
 
-@media (min-width: 481px) and (max-width: 767px){
+@media (max-width: 767px){
 
     .aboutMeSection{
         width: 80%!important;
@@ -444,16 +441,20 @@ footer p:hover{
     }
 
     .bottom-nav{
-        width: 55%!important;
+        width: 90%!important;
     }
 
     .bottom-nav ul li{
-        width: 100%!important;
-        font-size: 0.9rem;
+        /* width: 100%!important; */
+        font-size: 0.7rem!important;
+        /* width: 130px!important; */
+        /* padding-right: 5px; */
     }
 
     .bottom-nav ul li a{
-        width: 100%;
+        width: 4.7rem!important;
+        /* padding-right: 3px!important; */
+        font-size: 0.8rem!important;
     }
 
 
