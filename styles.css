@@ -306,6 +306,7 @@ a.nav-link{
     font-family: 'Cutive Mono', monospace;
     /* letter-spacing: 1px; */
     font-size: 2.3rem;
+    
 }
 
 .footer i{
@@ -331,6 +332,28 @@ footer i:hover{
 
 footer p:hover{
     color: rgb(202, 185, 164);
+}
+
+
+.bottom-nav ul{
+    list-style: none;
+    justify-content: center!important;
+    /* align-items: center!important; */
+}
+
+
+
+
+.bottom-nav ul li{
+    border-right: rgb(182,30,33) 3px solid;
+    font-size: 1.1rem;
+    width: 150px;
+    padding: auto;
+    margin: 5px;
+}
+
+.bottom-nav ul :last-child{
+    border-right: none;
 }
 
 
