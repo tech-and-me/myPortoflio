@@ -408,7 +408,7 @@ footer p:hover{
 @media (max-width: 767px){
 
     .aboutMeSection{
-        width: 80%!important;
+        width: 90%!important;
     }
     .aboutMeSection img{
         margin-bottom: 1rem;
