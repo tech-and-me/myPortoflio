@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Pattaya&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Mukta:wght@200&family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 
 *{
@@ -286,8 +287,11 @@ a.nav-link{
 
 #aboutmeContent span{
     /* font-style: italic; */
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     /* color: red; */
+
+    font-family: 'Great Vibes', cursive;
+    letter-spacing: 2px;
 }
 
 
