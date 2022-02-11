@@ -285,8 +285,9 @@ a.nav-link{
 }
 
 #aboutmeContent span{
-    font-style: italic;
+    /* font-style: italic; */
     font-size: 1.3rem;
+    /* color: red; */
 }
 
 
@@ -345,8 +346,8 @@ footer p:hover{
 .bottom-nav ul li{
     border-right: rgb(182,30,33) 3px solid;
     font-size: 1.1rem;
-    width: 100%;
-    padding: auto;
+    width:130px;
+    /* padding: auto; */
     margin: 5px;
 }
 
@@ -395,8 +396,8 @@ footer p:hover{
     }
 
     .bottom-nav ul li{
-        width: 100%!important;
-        font-size: 0.9rem;
+        width: 130px!important;
+        font-size: 0.8rem;
     }
 
     .bottom-nav ul li a{
@@ -442,6 +443,7 @@ footer p:hover{
 
     .bottom-nav{
         width: 90%!important;
+        margin-top: 4.5rem!important;
     }
 
     .bottom-nav ul li{
@@ -453,9 +455,9 @@ footer p:hover{
     }
 
     .bottom-nav ul li a{
-        width: 4.7rem!important;
+        width: 80px!important;
         /* padding-right: 3px!important; */
-        font-size: 0.8rem!important;
+        font-size: 0.7rem!important;
     }
 
 
