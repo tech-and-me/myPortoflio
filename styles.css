@@ -320,6 +320,7 @@ a.nav-link{
     font-weight: 300;
     font-size:1.2rem;
     line-height: 2;  
+    min-height: 50vh;
 }
 
 #aboutmeContent span{
