@@ -55,12 +55,20 @@ const type = () => {
     str += text.charAt(i);
     document.getElementById("aboutmeContent").innerHTML = str;
     i++;
-    setTimeout(type,50);
+    t = setTimeout(type,40);
     if (i===len){
-        clearTimeout(type);
+        t = setTimeout(clearType,3000);
     }
 }
 
 
+const clearType = () => {
+    i = 0;
+    called = false;
+    str =  "<p>I'm a professional, driven, with a unique blend of experience in accounting , finance , customer services and programming who love problem solving and being creative.</p>" ;
+    clearTimeout(t);
+    type();
+    
+}
 
 
