@@ -37,7 +37,6 @@ document.addEventListener("DOMContentLoaded",typeTitle)
 let str ="";
 
 const text =  "Phary Phal" ;
-
 const len = text.length;
 let i = 0;
 let t;
@@ -45,8 +44,12 @@ let called = false;
 
 document.addEventListener('scroll', e =>{
     if(document.documentElement.scrollTop >= 4000){
-        if (called)return;
+        if (called)
+        {
+            return;
+        }
         called = true;
+
         type();
     }
 })
@@ -55,18 +58,18 @@ const type = () => {
     str += text.charAt(i);
     document.getElementById("signature").innerHTML = str;
     i++;
-    t = setTimeout(type,120);
+    t = setTimeout(type,200);
     if (i===len){
         t = setTimeout(clearType,1500);
     }
 }
 
 
-const clearType = () => {
-    i = 0;
-    called = false;
-    str =  "" ;
+const clearType = () => { 
     clearTimeout(t);
+    i = 0;
+    called = true;
+    str =  "" ;
     type();
     
 }

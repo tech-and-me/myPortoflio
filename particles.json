@@ -41,7 +41,7 @@
         "anim": {
           "enable": false,
           "speed": 60,
-          "size_min":20,
+          "size_min":10,
           "sync": false
         }
       },
@@ -56,12 +56,12 @@
         "enable": true,
         "speed": 2,
         "direction": "bottom",
-        "random": false,
+        "random": true,
         "straight": false,
         "out_mode": "out",
         "attract": {
           "enable": false,
-          "rotateX": 800,
+          "rotateX": 700,
           "rotateY": 1200
         }
       }
@@ -74,7 +74,7 @@
           "mode": "repulse"
         },
         "onclick": {
-          "enable": true,
+          "enable": false,
           "mode": "push"
         },
         "resize": true
