@@ -34,9 +34,9 @@ document.addEventListener("DOMContentLoaded",typeTitle)
 
 // Function to type about me paragraph one by one ------------------------------
 
-let str ="<p>I'm a professional, driven, with a unique blend of experience in accounting , finance , customer services and programming who love problem solving and being creative.</p>";
+let str ="";
 
-const text =  "<p>I'm constantly evolving, learning, and growing so you can expect that working with me is going to be fun.<br>I'm also a people person who can't let a day go by without having a cup of coffee.</p><p>Whether you require my freelancing services or hiring me as a fulltime employee, please feel free to contact me anytime.</p><br><p>Cheers,</p><p><span>Phary Phal</span></p>" ;
+const text =  "Phary Phal" ;
 
 const len = text.length;
 let i = 0;
@@ -53,11 +53,11 @@ document.addEventListener('scroll', e =>{
 
 const type = () => {
     str += text.charAt(i);
-    document.getElementById("aboutmeContent").innerHTML = str;
+    document.getElementById("signature").innerHTML = str;
     i++;
-    t = setTimeout(type,40);
+    t = setTimeout(type,120);
     if (i===len){
-        t = setTimeout(clearType,3000);
+        t = setTimeout(clearType,1500);
     }
 }
 
@@ -65,7 +65,7 @@ const type = () => {
 const clearType = () => {
     i = 0;
     called = false;
-    str =  "<p>I'm a professional, driven, with a unique blend of experience in accounting , finance , customer services and programming who love problem solving and being creative.</p>" ;
+    str =  "" ;
     clearTimeout(t);
     type();
     
