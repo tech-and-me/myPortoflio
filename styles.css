@@ -38,6 +38,7 @@ html, body {width: auto!important; overflow-x: hidden!important}
     -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
     transition: opacity .8s ease, transform 1.4s ease
 }
+
 #particles-js 
 {
     width: 100%;
@@ -46,22 +47,15 @@ html, body {width: auto!important; overflow-x: hidden!important}
     z-index: -10;
     top: 0;
     left: 0;
-    /* z-index:9999!important; */
+    z-index:0!important;
 }
 canvas
 {
     display:block;
     position: fixed;
-    /* z-index: 9999!important; */
 }
 
-
-
-
-
 /* .......................................... */
-
-
 
 a{
     text-decoration: none;
@@ -86,12 +80,8 @@ a.nav-link{
     font-family: 'Roboto', sans-serif;
     font-weight:500;
     text-decoration: none;
-    /* margin: auto 8px; */
     width: 120px;
-    /* border: solid red 2px; */
     padding: 7px!important;
-
-
     display: block;
     position:relative;
 }
@@ -117,13 +107,6 @@ a.nav-link{
     min-height:60vh;
     /* background-color: yellow; */
 }
-
-/* .hero{
-    height: 30%;
-    /* margin-top: -3rem; */
-    /* position: relative; */
-    /* background-color: red; */
-/* } */ 
 
 .hero .row{
     background-color: rgba(245,242,240,20);
@@ -340,6 +323,9 @@ a.nav-link{
 .footer{
     color: rgba(251,242,240,255);
     padding: 0.5rem;
+    z-index: 9999!important;
+    /* background-image: url(./assets/black_lozenge.png); */
+    position: relative;
 }
 
 .footer h4{
@@ -357,6 +343,7 @@ a.nav-link{
     padding-top: 2.5rem!important;
     padding-bottom: 1rem;
     color: rgba(251,242,240,255);
+    
 }
 
 .footer p{
@@ -367,6 +354,7 @@ a.nav-link{
     color: rgba(251,242,240,255);
     background: url(./assets/vertical_cloth.png);
     letter-spacing: 1px;
+    
 }
 
 footer i:hover{
@@ -375,6 +363,7 @@ footer i:hover{
 
 footer p:hover{
     color: rgb(202, 185, 164);
+    
 }
 
 
