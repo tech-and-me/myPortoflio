@@ -155,6 +155,10 @@ a.nav-link{
     font-size: 1.3rem;
 }
 
+#title{
+    min-height: 8rem;
+}
+
 .sec-content{
     margin: 3rem 0;
     position:relative;
@@ -435,6 +439,10 @@ footer p:hover{
         width: 100%;
     }
 
+    #title{
+        min-height: 8rem!important;
+    }
+
 }
 
 @media (max-width: 767px){
@@ -489,6 +497,10 @@ footer p:hover{
         width: 80px!important;
         /* padding-right: 3px!important; */
         font-size: 0.7rem!important;
+    }
+
+    #title{
+        min-height: 8rem!important;
     }
 
 
