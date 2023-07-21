@@ -44,10 +44,10 @@ html, body {width: auto!important; overflow-x: hidden!important}
     width: 100%;
     height: 100%;
     position: absolute;
-    z-index: -10;
+    /* z-index: -10; */
     top: 0;
     left: 0;
-    z-index:0!important;
+    /* z-index:2!important; */
 }
 canvas
 {
@@ -105,7 +105,6 @@ a.nav-link{
 .hero-wrapper{
     position: relative;
     min-height:60vh;
-    /* background-color: yellow; */
 }
 
 .hero .row{
@@ -113,16 +112,13 @@ a.nav-link{
     min-height:55vh;
 }
 
-.hero h1{
+.hero h1, #contact h1{
     padding-bottom: 1rem;
-    /* font-family: 'Yeseva One', cursive; */
     color: black;
     font-size: 4.5rem;
-    /* font-family: 'Pattaya', sans-serif; */
     font-family: 'Fredericka the Great', cursive;
     color: rgb(182,30,33);
     font-weight:500;
-    
 }
 
 .hero h4{
@@ -166,8 +162,6 @@ a.nav-link{
 }
 .sec-content > span > img{
     padding: 3rem 1.2rem;
-    /* min-width:110px;
-    max-width: 5%; */
 }
 
 .skills{
@@ -406,6 +400,7 @@ footer p:hover{
     background-position:top left;
     color: #fff;
   }
+
 
 
 /* Media Query  */
