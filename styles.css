@@ -56,6 +56,22 @@ canvas
 }
 
 /* .......................................... */
+.custom-carousel-control {
+   width: 5%;
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+ }
+ 
+ .carousel-control-prev {
+   left: -5%;
+ }
+ 
+ .carousel-control-next {
+   right: -5%;
+ }
+
+
 
 a{
     text-decoration: none;
@@ -215,6 +231,7 @@ a.nav-link{
     position: relative;
     align-items: center;
     text-align: center;
+    z-index:   9999! important;
 }
 
 
@@ -253,8 +270,15 @@ a.nav-link{
 }
 
 .proj-content a{
-    color: rgb(109, 144, 240);
+    /* color: rgb(109, 144, 240); */
+    color: #0df5fd;
     font-weight: bold;
+}
+
+.proj-content a:hover{
+   /* color: rgb(109, 144, 240); */
+   color: #9cf0f8;
+   font-weight: bold;
 }
 
 .proj-content a i{
@@ -264,12 +288,8 @@ a.nav-link{
 }
 
 .proj-content a i:hover{
-    color: rgb(22, 70, 175);
-}
-
-.proj-content a:hover{
-    color: rgb(22, 70, 175);
-    /* box-shadow: rgb(158, 158, 223); */
+    /* color: rgb(22, 70, 175); */
+    color: #d1f5ed;
 }
 
 .aboutMeSection{
@@ -278,6 +298,14 @@ a.nav-link{
     justify-content: center;
     text-align: center;
     overflow-x: hidden;
+}
+
+.carousel-item i, .carousel-item a{
+   color: #0df5fd;
+}
+
+.carousel-item i:hover,.carousel-item a:hover{
+   color: #a7f6f9;
 }
 
 
@@ -305,10 +333,7 @@ a.nav-link{
 }
 
 #aboutmeContent span{
-    /* font-style: italic; */
     font-size: 1.5rem;
-    /* color: red; */
-
     font-family: 'Great Vibes', cursive;
     letter-spacing: 4px;
 }
