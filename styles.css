@@ -194,8 +194,8 @@ a.nav-link{
     font-family: 'Fredericka the Great', cursive;
     letter-spacing: 5px;
     justify-content: center;
-    width: 25%;
-    min-width: 250px;  
+    width: 90%;
+    min-width: 300px;  
 }
 
 .bgColorFill{
