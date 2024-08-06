@@ -30,7 +30,7 @@ const clear = () => {
     typeTitle();
 }
 
-document.addEventListener("DOMContentLoaded",typeTitle)
+// document.addEventListener("DOMContentLoaded",typeTitle)
 
 // Function to type about me paragraph one by one ------------------------------
 
