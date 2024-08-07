@@ -54,20 +54,20 @@ let called = false;
 //     }
 // })
 
-const type = () => {
-   str += text.charAt(i);
-   document.getElementById("signature").innerHTML = str;
-   i++;
-   t = setTimeout(type, 200);
-   if (i === len) {
-      t = setTimeout(clearType, 1500);
-   }
-};
+// const type = () => {
+//    str += text.charAt(i);
+//    document.getElementById("signature").innerHTML = str;
+//    i++;
+//    t = setTimeout(type, 200);
+//    if (i === len) {
+//       t = setTimeout(clearType, 1500);
+//    }
+// };
 
-const clearType = () => {
-   clearTimeout(t);
-   i = 0;
-   called = true;
-   str = "";
-   type();
-};
+// const clearType = () => {
+//    clearTimeout(t);
+//    i = 0;
+//    called = true;
+//    str = "";
+//    type();
+// };
