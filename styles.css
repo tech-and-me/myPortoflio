@@ -71,6 +71,9 @@ canvas
    right: -5%;
  }
 
+ .carousel-item {
+   min-height: 40rem; 
+ }
 
 
 a{
@@ -430,6 +433,10 @@ footer p:hover{
 
 /* Media Query  */
 @media (min-width: 768px) and (max-width: 1024px){
+   .carousel-item {
+      min-height: 50rem; 
+    }
+    
     .skills{
       margin-top: 3rem!important;
   }
@@ -466,6 +473,10 @@ footer p:hover{
 }
 
 @media (max-width: 767px){
+
+   .carousel-item {
+      min-height: 65rem; 
+    }
 
     .aboutMeSection{
         width: 90%!important;
